@@ -1,0 +1,18 @@
+.event-boldtitle{
+	font-family: 'soleil';
+}
+
+.event-infos-wrap{
+	a.button{
+		font-family: 'soleil';
+		font-weight: 700;
+		border-radius: 4px;
+	}
+}
+
+// hide social links
+.links-block{
+	.buttons{
+		display: none;
+	}
+}

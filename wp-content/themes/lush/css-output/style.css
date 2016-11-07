@@ -1,0 +1,39 @@
+h3.widgettitle {
+  font-family: 'soleil';
+  font-weight: 600;
+  font-size: 24px; }
+
+h1 {
+  font-family: 'soleil'; }
+
+ul.header-top-menu.righttype {
+  display: none; }
+
+.menu-main-menu-container ul.nav-menu li a {
+  transition: background 0.2s; }
+
+.rev_slider * {
+  font-family: 'soleil' !important; }
+.rev_slider .tp-caption {
+  color: #fff;
+  font-size: 64px; }
+
+.event-boldtitle {
+  font-family: 'soleil'; }
+
+.event-infos-wrap a.button {
+  font-family: 'soleil';
+  font-weight: 700;
+  border-radius: 4px; }
+
+.links-block .buttons {
+  display: none; }
+
+.asd {
+  font-size: 12px; }
+
+#nm-mc-loading {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 11px; }

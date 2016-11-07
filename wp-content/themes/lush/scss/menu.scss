@@ -1,0 +1,13 @@
+ul.header-top-menu.righttype{
+	display: none;
+}
+
+// menu link styles
+
+.menu-main-menu-container{
+	ul.nav-menu{
+		li a{
+			transition: background 0.2s;
+		}
+	}
+}

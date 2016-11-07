@@ -1,0 +1,17 @@
+
+h3.widgettitle{
+	font-family: 'soleil';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+// typography override
+h1{
+	font-family: 'soleil';
+}
+
+@import 'menu';
+@import 'slider';
+@import 'events';
+@import 'footer';
+@import 'footer-email';
