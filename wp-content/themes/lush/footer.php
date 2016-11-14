@@ -75,5 +75,6 @@
 
 	</div>
 <?php wp_footer(); ?>
+<script defer type="text/javascript" src="/wp-content/themes/lush/custom-js/marco-script.js"></script>
 </body>
 </html>
