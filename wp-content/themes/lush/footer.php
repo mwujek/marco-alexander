@@ -5,37 +5,28 @@
 		<!-- footer -->
 		<footer id="footer">
 
-			<?php
-			$newsletter_enabled = (bool)get_iron_option('footer_newsletter_enabled');
-			$newsletter_home_only = (bool)get_iron_option('footer_newsletter_home_only');
-			$newsletter_title = get_iron_option('footer_newsletter_title');
-			$newsletter_description = get_iron_option('footer_newsletter_description');
-			$newsletter_id = get_iron_option('footer_newsletter_id');
-			if ($newsletter_enabled && !empty($newsletter_id) && function_exists('is_plugin_active') && is_plugin_active('nmedia-mailchimp-widget/nm_mailchimp.php')) : ?>
-
-				<?php if(!($newsletter_home_only && !is_front_page())): ?>
+			
 				<div class="newsletter-wrap">
 
-					<?php if(!empty($newsletter_title)): ?>
 					<div class="newsletter-title-wrap">
 						<div class="topwave"></div>
-						<h3><?php echo $newsletter_title; ?></h3>
+						<!-- <h3><?php echo $newsletter_title; ?></h3> -->
+						<h3>Become a Viber</h3>
 						<div class="botwave"></div>
 					</div>
-					<?php endif; ?>
 
-					<?php if(!empty($newsletter_description)): ?>
 					<div class="newsletter-description-wrap">
-						<p><?php echo $newsletter_description; ?></p>
-					</div>
-					<?php endif; ?>
 
-					<?php echo do_shortcode('[nm-mc-form fid="'.$newsletter_id.'"]'); ?>
+						<p>Sign up to download Friction EP</p>
+						<?php echo do_shortcode('[mc4wp_form id="2201"]'); ?>
+
+
+					</div>
+
+
 
 				</div>
-				<?php endif; ?>
 
-			<?php endif; ?>
 
 
 

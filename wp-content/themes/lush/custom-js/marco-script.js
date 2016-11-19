@@ -18,4 +18,10 @@ $(document).ready(function(){
 	menuBackBtn.fadeOut(0);
 	navItemChildren.css('opacity',0);
 
+	$('.slider').flickity({
+  		cellSelector: '.slide',
+  		cellAlign: 'left',
+  		contain: true
+	});
+
 });

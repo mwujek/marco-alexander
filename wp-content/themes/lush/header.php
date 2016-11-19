@@ -8,7 +8,13 @@ $fixed_header = get_iron_option('enable_fixed_header');
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
 	<title><?php wp_title('—', true, 'right'); ?></title>
 	<?php wp_head(); ?>	
-	<link rel="stylesheet" type="text/css" href="/wp-content/themes/lush/css-output/style.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/lush/css-output/style-odd.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+	<!-- add typekit -->
+		<script src="https://use.typekit.net/rgl8rsy.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body <?php body_class("layout-wide ".($fixed_header ? 'fixed_header' : '')); ?> onload="jQuery('header').animate({'opacity': 1})">
 
@@ -71,9 +77,7 @@ $fixed_header = get_iron_option('enable_fixed_header');
 		</a>
 		<?php endif; ?>
 
-		<!-- add typekit -->
-		<script src="https://use.typekit.net/rgl8rsy.js"></script>
-		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		
 	</header>
 
 

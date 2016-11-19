@@ -7,3 +7,29 @@
 		font-size: 64px;
 	}
 }
+
+// flickity
+.home-image-slider{
+	max-width: 100% !important;
+}
+.slider{
+	padding: 0 0 120px 0;
+	background: $black-primary;
+	height: 60vh;
+	width: 100%;
+	.slide{
+		height: 100%;
+		width: 100%;
+		img{
+			display: block;
+			margin: 0 auto;
+			max-height: 100%;
+		}
+	}
+	.flickity-page-dots{
+		bottom: 50px;
+		li{
+			background: #fff;
+		}
+	}
+}

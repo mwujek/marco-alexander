@@ -1,0 +1,221 @@
+h3.widgettitle {
+  font-family: 'futura-pt-condensed';
+  font-weight: 900;
+  font-size: 80px;
+  margin: 30px 0; }
+
+span.heading-t3, span.heading-b3 {
+  width: 100px; }
+
+h1 {
+  font-family: 'futura-pt-condensed';
+  font-weight: 900;
+  font-size: 48px; }
+
+.video-home-page {
+  max-width: 100% !important;
+  background: #04011C;
+  padding: 80px 40px 120px 40px !important; }
+  .video-home-page h3.widgettitle {
+    color: #fff; }
+  .video-home-page span.heading-t3, .video-home-page span.heading-b3 {
+    background: #fff; }
+  .video-home-page .wpb_video_wrapper {
+    margin-top: 60px; }
+
+.blog-section {
+  max-width: 100% !important;
+  background: #04011C;
+  padding: 0px 40px 120px 40px !important;
+  color: #fff; }
+  .blog-section h3.widgettitle {
+    color: #fff; }
+  .blog-section span.heading-t3, .blog-section span.heading-b3 {
+    color: #fff; }
+
+ul.header-top-menu.righttype {
+  display: none; }
+
+.menu-main-menu-container ul.nav-menu li a {
+  transition: background 0.2s; }
+
+header .menu-toggle.righttype {
+  display: none; }
+
+.side-menu.righttype {
+  display: block;
+  position: fixed;
+  top: 0px;
+  right: auto;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  overflow: visible;
+  background: #0111ff;
+  text-align: center; }
+  .side-menu.righttype .site-title {
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    width: auto;
+    height: 80px;
+    position: relative;
+    left: -10px; }
+    .side-menu.righttype .site-title img {
+      margin: 16px auto;
+      transform-origin: center center;
+      transform: scale(0.8); }
+  .side-menu.righttype .sub-menu {
+    transition: opacity 0.5s; }
+  .side-menu.righttype .panel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    margin-top: 22px;
+    z-index: -1; }
+    .side-menu.righttype .panel .nav-holder {
+      position: relative; }
+      .side-menu.righttype .panel .nav-holder nav #menu-main-menu {
+        text-align: center; }
+        .side-menu.righttype .panel .nav-holder nav #menu-main-menu li {
+          width: auto; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li a {
+            transition: 0.3s color;
+            font-family: 'futura-pt-condensed';
+            font-size: 20px; }
+            .side-menu.righttype .panel .nav-holder nav #menu-main-menu li a i {
+              transition: 0.3s color; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li:first-child {
+            display: none; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li#menu-item-1975 {
+            margin-left: 50px; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li#menu-item-2092 {
+            margin-left: 20px;
+            margin-right: 4px; }
+            .side-menu.righttype .panel .nav-holder nav #menu-main-menu li#menu-item-2092 a {
+              color: #fff; }
+            .side-menu.righttype .panel .nav-holder nav #menu-main-menu li#menu-item-2092 .sub-arrow i {
+              font-size: 18px;
+              right: 0px;
+              top: 0px; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li#menu-item-2151 {
+            opacity: 0px;
+            visibility: hidden; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li:hover a {
+            background: none;
+            color: #0111ff; }
+            .side-menu.righttype .panel .nav-holder nav #menu-main-menu li:hover a i {
+              color: #0111ff !important; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li li a {
+            color: #fff; }
+          .side-menu.righttype .panel .nav-holder nav #menu-main-menu li li:hover a {
+            color: #0111ff !important; }
+  .side-menu.righttype .panel-networks {
+    display: none; }
+
+.menu-toggle-off {
+  right: 25px;
+  top: 26px; }
+
+.home-hero-container {
+  background-color: #0111ff;
+  background: url(../img/ep-front.jpg);
+  background-size: contain !important;
+  max-width: 100% !important;
+  height: 80vh;
+  margin-top: 80px !important;
+  width: 100%; }
+  .home-hero-container div {
+    height: 100%;
+    width: 100%; }
+  .home-hero-container .wpb_raw_code .wpb_wrapper {
+    display: table; }
+  .home-hero-container .home-hero {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-align: center; }
+    .home-hero-container .home-hero article {
+      display: block;
+      margin-bottom: 10px; }
+    .home-hero-container .home-hero h1, .home-hero-container .home-hero h2 {
+      padding: 40px;
+      background: rgba(0, 0, 255, 0.9);
+      display: inline-block;
+      text-align: center;
+      border-radius: 2px;
+      margin: 0;
+      color: #fff;
+      font-family: 'futura-pt'; }
+    .home-hero-container .home-hero h2 {
+      padding: 20px 80px 40px 80px; }
+    .home-hero-container .home-hero a {
+      margin-top: -36px;
+      display: block;
+      font-family: 'futura-pt'; }
+      .home-hero-container .home-hero a i {
+        font-size: 22px;
+        margin-right: 10px;
+        position: relative;
+        top: -1px; }
+
+.rev_slider * {
+  font-family: 'soleil' !important; }
+
+.rev_slider .tp-caption {
+  color: #fff;
+  font-size: 64px; }
+
+.home-image-slider {
+  max-width: 100% !important; }
+
+.slider {
+  padding: 0 0 120px 0;
+  background: #04011C;
+  height: 60vh;
+  width: 100%; }
+  .slider .slide {
+    height: 100%;
+    width: 100%; }
+    .slider .slide img {
+      display: block;
+      margin: 0 auto;
+      max-height: 100%; }
+  .slider .flickity-page-dots {
+    bottom: 50px; }
+    .slider .flickity-page-dots li {
+      background: #fff; }
+
+.jp-play-bar {
+  background: #0111ff !important; }
+
+.event-boldtitle {
+  font-family: 'soleil'; }
+
+.event-infos-wrap a.button {
+  font-family: 'soleil';
+  font-weight: 700;
+  border-radius: 4px; }
+
+.links-block .buttons {
+  display: none; }
+
+#footer .newsletter-wrap {
+  background: #0111ff; }
+
+.footer-block.share {
+  background: #04011C; }
+
+.newsletter-description-wrap p {
+  font-family: 'futura-pt'; }
+
+.nm_mc_form input {
+  font-family: 'futura-pt'; }
+
+#nm-mc-loading {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 11px; }

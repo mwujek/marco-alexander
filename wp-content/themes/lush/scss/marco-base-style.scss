@@ -1,0 +1,65 @@
+$blue-primary: #0111ff;
+$black-primary: #04011C;
+
+
+h3.widgettitle{
+	font-family: 'futura-pt-condensed';
+    font-weight: 900;
+    font-size: 80px;
+    margin: 30px 0;
+}
+
+span.heading-t3, span.heading-b3{
+	width: 100px;
+}
+
+// typography override
+h1{
+	font-family: 'futura-pt-condensed';
+	font-weight: 900;
+    font-size: 48px;
+}
+
+// body conent{
+#pusher{
+	//position: relative;
+	//padding-top: 80px;
+}
+
+// music section
+.video-home-page{
+	max-width: 100% !important;
+	background: $black-primary;
+	padding: 80px 40px 120px 40px !important;
+	h3.widgettitle{
+		color: #fff;
+	}
+	span.heading-t3, span.heading-b3{
+		background: #fff;
+	}
+	.wpb_video_wrapper{
+		margin-top: 60px;
+	}
+}
+
+.blog-section{
+	max-width: 100% !important;
+	background: $black-primary;
+	padding: 0px 40px 120px 40px !important;
+	color: #fff;
+	h3.widgettitle{
+		color: #fff;
+	}
+	span.heading-t3, span.heading-b3{
+		color: #fff;
+	}
+}
+
+@import 'menu';
+@import 'header';
+@import 'home-hero';
+@import 'slider';
+@import 'music-player';
+@import 'events';
+@import 'footer';
+@import 'footer-email';
